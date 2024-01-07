@@ -169,6 +169,7 @@ async def get_links(url):
     try:
         scraper = cfscrape.create_scraper(delay=10)
         get_res = scraper.get(url)
+        print(get_res)
 
         if get_res.status_code != 200: return []
         soup = BeautifulSoup(get_res.content, 'html.parser')
