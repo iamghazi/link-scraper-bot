@@ -52,7 +52,23 @@ bsc_headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap
 
 bsc_url = 'https://bscscan.com/contractsVerified'
 
-ether_headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
+ether_headers = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "en-GB,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Brave\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "ASP.NET_SessionId=jfknrjjfjk0m0k3snwuzts5h; etherscan_offset_datetime=+5.5; __cflb=02DiuFnsSsHWYH8WqVXcJWaecAw5gpnmeyh3ReXcWttUL; cf_clearance=AEUeXQH4vZNeExCzIVbi_dRGWi9DfKYVm0uHc93hNfc-1704665813-0-2-d38ff883.6f6c9269.70ad0cbf-0.2.1704665813",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+}
 
 ether_url = 'https://etherscan.io/contractsVerified'
 
