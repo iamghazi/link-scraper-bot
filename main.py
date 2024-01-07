@@ -168,7 +168,7 @@ async def fetch_all_contracts(url, last_visited = ''):
 async def get_links(url):
     try:
         scraper = cfscrape.create_scraper(delay=10)
-        get_res = scraper.get(url)
+        get_res = scraper.get(url, headers=ether_headers)
         print(get_res)
 
         if get_res.status_code != 200: return []
