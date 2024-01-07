@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: okx-tg-bot
+    name: scan-crawler-bot
     runtime: python
     plan: free
     autoDeploy: false
